@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To create a trademark record by importing from public source</name>
+   <tag>Trademark</tag>
+   <comment></comment>
+   <testCaseGuid>f1392af6-5dd7-4d31-a5e6-955a6f9246c0</testCaseGuid>
+</TestCaseEntity>

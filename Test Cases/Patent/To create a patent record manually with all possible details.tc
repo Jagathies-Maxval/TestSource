@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To create a patent record manually with all possible details</name>
+   <tag>Patent</tag>
+   <comment></comment>
+   <testCaseGuid>6f96f19f-abc5-4f4e-b08a-804fa7361bcb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To create a patent record by importing from public source</name>
+   <tag>Patent</tag>
+   <comment>Find a matching text in a table and performing action</comment>
+   <testCaseGuid>650dffe6-bdda-474c-b5e7-24492002536f</testCaseGuid>
+</TestCaseEntity>
