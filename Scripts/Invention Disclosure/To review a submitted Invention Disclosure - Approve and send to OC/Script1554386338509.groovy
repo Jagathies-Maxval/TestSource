@@ -58,7 +58,7 @@ WebUI.selectOptionByValue(findTestObject('Invention Disclosure Review/Page_Inven
 not_run: WebUI.click(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/label_Competitive Value0123'))
 
 WebUI.setText(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/textarea_Review Comments'), 
-    'Review cmts')
+    'Review comments')
 
 WebUI.setText(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/textarea_Instruction for Outside Counsel'), 
     'Instruction for OC')
@@ -68,7 +68,9 @@ WebUI.setText(findTestObject('Invention Disclosure Review/Page_Invention Disclos
 WebUI.selectOptionByValue(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/select_Law Firm'), 
     'a1o1K000003GkXAQA0', false)
 
-WebUI.waitForElementVisible(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/select_OC'), 30)
+WebUI.waitForElementVisible(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/select_OC'), 
+    30)
+
 WebUI.selectOptionByValue(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/select_OC'), 
     'a1g1K000005H4hoQAC', false)
 
