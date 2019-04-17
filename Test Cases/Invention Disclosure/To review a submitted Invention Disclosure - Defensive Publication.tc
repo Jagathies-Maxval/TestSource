@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>To review a submitted Invention Disclosure - Approve and send to OC</name>
+   <name>To review a submitted Invention Disclosure - Defensive Publication</name>
    <tag>Invention Disclosure</tag>
    <comment></comment>
-   <testCaseGuid>166638f0-e1f7-4021-b397-6be2c5bd6e5e</testCaseGuid>
+   <testCaseGuid>39814e8d-c552-4dec-bede-c59316b44c41</testCaseGuid>
    <variable>
       <defaultValue>this.null</defaultValue>
       <description></description>
-      <id>15cdf9aa-ffb8-45c7-b7c0-8f2b86e26561</id>
+      <id>3f2dc9bc-8a4a-4fae-b4d4-28818e3b0887</id>
       <masked>false</masked>
       <name>variable</name>
    </variable>
