@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve and Send to OC'])[1]/preceding::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request More Information'])[1]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

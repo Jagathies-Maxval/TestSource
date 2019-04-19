@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Approve</name>
+   <name>span_Reject</name>
    <tag></tag>
-   <elementGuidId>8b2efdc2-c7b1-4506-b102-bbdca77d4cbc</elementGuidId>
+   <elementGuidId>88704f5c-b1dc-4637-b2fb-152dec1c96c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reject'])[1]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

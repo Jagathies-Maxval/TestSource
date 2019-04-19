@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Approve</name>
+   <name>span_Request Patent Search</name>
    <tag></tag>
-   <elementGuidId>8b2efdc2-c7b1-4506-b102-bbdca77d4cbc</elementGuidId>
+   <elementGuidId>5c46c263-f44f-4f42-b929-3d38cc86e8af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Patent Search'])[1]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -12,23 +12,28 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import groovy.time.TimeCategory
-import java.text.DateFormat
-import java.text.SimpleDateFormat
-import java.util.Date
+import groovy.time.TimeCategory as TimeCategory
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Date as Date
 
+use(TimeCategory, { 
+        today = new Date()
 
-use(TimeCategory, {
-	today = new Date()
-	lastWeek = (today - 1.week)
-	NextWeek = (today + 1.week)
-	NextMonth = (today + 1.month)
-	twodaysAgo = (today- 2.days)
-})
+        lastWeek = (today - 1.week)
 
-DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy");
-Date date = new Date();
-String today = dateFormat.format(date);
+        NextWeek = (today + 1.week)
+
+        NextMonth = (today + 1.month)
+
+        twodaysAgo = (today - 2.days)
+    })
+
+DateFormat dateFormat = new SimpleDateFormat('dd MMM yyyy')
+
+Date date = new Date()
+
+String today = dateFormat.format(date)
 
 WebUI.openBrowser('')
 
@@ -56,7 +61,7 @@ not_run: WebUI.click(findTestObject('Invention Disclosure Review/Page_Home/span_
 
 WebUI.click(findTestObject('Invention Disclosure Review/Page_Recently Viewed Invention Disclosures/a_Docket Number'))
 
-WebUI.click(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/span_Approve and send to OC'))
+WebUI.click(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/span_Combine'))
 
 WebUI.click(findTestObject('Invention Disclosure Review/Page_Invention Disclosure Detailed View/span_Next'))
 
